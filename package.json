@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksfreitas/upload-document-check.git"
+    "url": "https://github.com/marinerfinance/upload-document-check"
   },
   "keywords": [
     "node",
@@ -19,7 +19,7 @@
     "check",
     "content"
   ],
-  "author": "Cássio de Freitas e Silva",
+  "author": "Mariner Finance LLC.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ksfreitas/upload-document-check/issues"
@@ -45,6 +45,5 @@
     "xls-to-json": "^0.5.2"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
   }
 }
