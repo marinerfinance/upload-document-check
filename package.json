@@ -1,5 +1,5 @@
 {
-  "name": "upload-document-check",
+  "name": "@mariner/upload-document-check",
   "version": "1.0.0",
   "description": "Open and parse some file types to ensure the content matches with the header",
   "main": "index.js",
