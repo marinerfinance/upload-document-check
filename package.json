@@ -24,7 +24,8 @@
   "bugs": {
     "url": "https://github.com/ksfreitas/upload-document-check/issues"
   },
-  "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
+  "homepage": "https://github.com/marinerfinance/upload-document-check",
+  "forkedFrom": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
     "@fknop/node-unrar": "^1.1.0",
     "event-stream": "^3.3.5",
