@@ -1,6 +1,6 @@
 {
   "name": "@mariner/upload-document-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open and parse some file types to ensure the content matches with the header",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,6 @@
   "homepage": "https://github.com/marinerfinance/upload-document-check",
   "forkedFrom": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
-    "@fknop/node-unrar": "^1.1.0",
     "event-stream": "^3.3.5",
     "extract-zip": "^1.6.7",
     "jimp": "^0.6.4",
@@ -42,9 +41,9 @@
     "pptx-compose": "^0.4.0",
     "rimraf": "^2.6.3",
     "tmp": "0.0.33",
+    "unrar-promise": "^2.0.1",
     "word-extractor": "^0.3.0",
     "xls-to-json": "^0.5.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
