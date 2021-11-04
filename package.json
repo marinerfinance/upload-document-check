@@ -1,6 +1,6 @@
 {
   "name": "@mariner/upload-document-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Open and parse some file types to ensure the content matches with the header",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,6 @@
     "pdf-parse": "^1.1.1",
     "pdf2json": "^1.1.8",
     "pngjs": "^3.4.0",
-    "ppt": "github:ksfreitas/js-ppt",
     "pptx-compose": "^0.4.0",
     "rimraf": "^2.6.3",
     "tmp": "0.0.33",

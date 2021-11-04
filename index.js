@@ -2,7 +2,6 @@ const DocValidation = require('./lib/doc-validation');
 const DocxValidation = require('./lib/docx-validation');
 const ImageValidation = require('./lib/image-validation');
 const PdfValidation = require('./lib/pdf-validation');
-const PptValidation = require('./lib/ppt-validation');
 const PptxValidation = require('./lib/pptx-validation');
 const RarValidation = require('./lib/rar-validation');
 const TxtValidation = require('./lib/txt-validation');
@@ -46,13 +45,6 @@ module.exports = {
                         resolve(result)
                     }).catch(err => {
                         resolve(false);
-                    })
-                case 'ppt':
-                    let PptValidationResult = PptValidation.validPpt.apply(null, filePath)
-                    return PptValidationResult.then((result) => {
-                        resolve(result)
-                    }).catch(err => {
-                        resolve(false)
                     })
                 case 'pptx':
                     let PptxValidationResult = PptxValidation.validPptx.apply(null, filePath)
